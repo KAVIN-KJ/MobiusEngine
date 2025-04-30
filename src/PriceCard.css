@@ -30,7 +30,7 @@
   
   .card-header h3 {
     font-size: 22px;
-    color: #00237d;
+    color: #0649E7;
     font-weight: 600;
   }
   
@@ -45,11 +45,11 @@
   
   .price {
     font-size: 24px;
-    color: #00237d;
+    color: #0649E7;
     margin: 16px 0;
   }
   
-  .price span {
+  .price-span {
     font-size: 36px;
     font-weight: 700;
     color: #0649E7;
@@ -79,11 +79,7 @@
     align-items: flex-start;
   }
   
-  .check {
-    color: #06c755;
-    font-weight: bold;
-    flex-shrink: 0;
-  }
+
   
   .get-started {
     background-color: #0649E7;
@@ -91,7 +87,7 @@
     font-weight: 600;
     border: none;
     border-radius: 36px;
-    width: 211px;
+    width: 211px; 
 
     padding: 16px;
     font-size: 16px;

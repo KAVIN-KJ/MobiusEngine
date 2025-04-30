@@ -51,7 +51,7 @@ const PriceCard = () => {
             {plan.badge && <span className="badge">{plan.badge}</span>}
           </div>
           <p className="price">
-            <span>{plan.price}</span>{plan.subtitle}
+            <span className='price-span'>{plan.price}</span>{plan.subtitle}
           </p>
           <hr className="divider" />
           <ul className="features">

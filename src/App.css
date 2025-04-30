@@ -247,3 +247,45 @@
         color: #0649E7;
         font-weight: 600;
     }
+    .resume-building{
+        display: flex;
+        margin-top: 150px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .resumebuildingheading{
+        width: 70%;
+    }
+    .resumebuildingheading h2{
+        width: 70%;
+        font-weight: 600;
+        font-size: 40px;
+        color: #0649E7;
+    }
+    .resumebuildingheading span{
+        font-weight: 500px;
+        color: #0649E7;
+        font-size: 18px;
+    }
+    .resumeplancontainer{
+        display: flex;
+        margin-top: 50px;
+        gap: 50px;
+    }
+    .contactus{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+    }
+    .contact-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px;
+        background-color: #0649E7;
+        border-radius: 35px;
+        width: 1408px;
+        height: 354px;
+    }

@@ -8,7 +8,7 @@ const AdvancedPlan = () => {
       <div className="advance-left">
         <h2>Advance</h2>
         <p className="subtitle">Top-tier support for serious job hunters:</p>
-        <hr className="divider" />
+        <div className='divider'></div>
         <ul className="features-grid">
           <li><img src={check} /> Everything in Plus</li>
           <li><img src={check} /> Custom Resumes & Cover Letters</li>

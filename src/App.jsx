@@ -4,14 +4,15 @@ import './index.css'
 import VideoCard from './VideoCard'
 import Logo from './assets/logoLarge.png'
 import ebook from './assets/bookImage.png'
-
+import arrow from './assets/arrow.png'
 import book from './assets/bookIcon.png'
-
+import bluelogo from './assets/LogoBlue.png'
 import ashwin from './assets/Ashwin.png'
 import nicolle from './assets/Nicolle.png'
 import WhyChooseUs from './WhyChoseUs'
 import PriceCard from './PriceCard'
 import AdvancedPlan from './AdvancedPlan'
+import ResumePlans from './ResumePlans'
 
 function App() {
 
@@ -119,15 +120,71 @@ function App() {
       </section>
 
       <section id="whychooseus" className='whychooseus' >
-        <WhyChooseUs/>
+        <WhyChooseUs />
       </section>
 
       <section className='jobapplication' >
 
-          <h2 className='jobapplication-heading'>Job Application Service plans</h2>
+        <h2 className='jobapplication-heading'>Job Application Service plans</h2>
 
-          <PriceCard/>
-          <AdvancedPlan/>
+        <PriceCard />
+        <AdvancedPlan />
+
+      </section>
+      <section id='resumeBuilding' className='resume-building' >
+        <div className='resumebuildingheading'>
+          <h2 className='resumebuildingheading'>
+            Resume Building & Coaching
+          </h2>
+          <span>
+
+            Let's talk about where you're headed — and how your resume can get you there. <br /> <b> Schedule a call to get started.</b>
+          </span>
+        </div>
+
+        <div className='resumeplancontainer' >
+          <ResumePlans
+            title="Resume Rebuild"
+            subtitle="Crafted for senior to VP-level professionals ready for their next big step."
+            price="1000"
+            frequency="one time"
+            buttonText="Get Started"
+            features={[
+              "3× 30–min coaching",
+              "Focused on storytelling, not just formatting",
+              "Analyst + full application team on Pacific hours",
+              "Tailored to your target industry, company, or role",
+              "Direct work with our co–founder (ex–Google, JP Morgan)",
+              "Executive coaching from UC Berkeley alum with 10+ yrs experience",
+              "Resume Rebuild portfolio available upon request"
+            ]}
+          />
+          <ResumePlans
+            title="Interview Prep"
+            subtitle="Two sessions to sharpen your story, confidence, and clarity — fast."
+            price="500"
+            frequency="one time"
+            buttonText="Get Started"
+            features={[
+              "2× 45–min live coaching with our co–founder",
+              "Real–time, practical feedback",
+              "Build clarity, empathy & executive presence",
+              "For senior and leadership roles — technical & non–technical"
+            ]}
+          />
+        </div>
+      </section>
+      <section className='contactus'>
+
+        <div className='contact-container'>
+            <div>STILL HAVE <br/> DOUBTS?</div>
+            <h1>Contact Us</h1>
+            <img src={arrow} alt="" />
+        </div>
+
+      </section>
+
+      <section>
 
       </section>
 
