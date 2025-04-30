@@ -277,6 +277,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        color: white;
         height: 600px;
     }
     .contact-container{
@@ -289,3 +290,230 @@
         width: 1408px;
         height: 354px;
     }
+    .contact-container div{
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+
+
+
+
+    /* ********* MEDIA QUERIES ******** */
+
+
+
+    @media (max-width: 1200px) {
+        #home{
+            box-sizing: border-box;
+        }
+        .homeBG{
+            background-color: none;
+            background-color: #0649E7;
+        }
+        .bookicon{
+            display: none;
+        }
+        .navbar {
+          flex-direction: column;
+          height: auto;
+          padding: 10px 0;
+        }
+      
+        .links {
+          flex-wrap: wrap;
+          width: 100%;
+          font-size: 18px;
+          justify-content: center;
+          gap: 10px;
+        }
+      
+        .getStarted {
+          width: 160px;
+          height: 50px;
+          font-size: 18px;
+          margin-top: 10px;
+        }
+      
+        .homebody {
+          flex-direction: column;
+          padding: 0 20px;
+        }
+      
+        .homecontent {
+          flex-direction: column;
+          width: 100%;
+          align-items: center;
+          gap: 40px;
+        }
+      
+        .descriptioncontainer {
+          width: 100%;
+          align-items: center;
+          text-align: center;
+          position: relative;
+          top: -170px;
+        }
+      
+        .homecontent .description {
+            margin: none;
+          font-size: 50px;
+          letter-spacing: -2px;
+        }
+      
+        .contentpara {
+          font-size: 16px;
+        }
+      
+        .ebookcontainer {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          position: relative;
+          top: -180px;
+        }
+      
+        .ebookcontainer img {
+          width: 200px;
+          max-width: 280px;
+        }
+      
+        .ebookdownload {
+          left: 0;
+          top: 10px;
+          text-align: center;
+        }
+      
+        .bookicon {
+          position: static;
+          margin-top: 20px;
+        }
+        
+
+        .howwework {
+            height: auto;
+            padding: 40px 20px;
+            gap: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        
+          .howwework .titlecontainer {
+            width: 100%;
+          }
+        
+          .howwework .title {
+            font-size: 28px;
+            text-align: center;
+          }
+        
+          .cards {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 20px;
+          }
+        
+          .about {
+            height: auto;
+            padding: 60px 20px;
+            gap: 60px;
+          }
+        
+          .aboutheading {
+            width: 100%;
+            font-size: 28px;
+            text-align: center;
+            margin-top: 0;
+          }
+        
+          .peoplecontainer{
+            flex-direction: column;
+            position: relative;
+            top: -40px;
+            box-sizing: border-box;
+            width: fit-content;
+          }
+          .people{
+            flex-direction: column;
+          }
+
+          .clientstitle{
+            position: relative;
+            text-align: center;
+            top: -250px;
+          }
+          .videocards{
+            position: relative;
+            top: -300px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+          }
+          .action-buttons{
+            position: relative;
+            top: -400px;
+            z-index: 1;
+          }
+          .action-buttons button{
+            scale: 0.7;
+          }
+          .whychooseus{
+            position: relative;
+            top: px;
+          }
+          .whychooseus h2{
+            text-align: center;
+          }
+          .jobapplication-heading{
+            text-align: center;
+          }
+          .resumebuildingheading{
+            text-align: center;
+          }
+          .resumeplancontainer{
+            flex-direction: column;
+          }
+          .contact-container{
+            flex-direction: column;
+            margin: 30px;
+          }
+          .contact-container h1{
+            font-size: 50px;
+          }
+          .contact-container img{
+            width: 10%;
+          }
+
+      }
+      
+      @media (max-width: 480px) {
+        .homecontent .description {
+          font-size: 40px;
+        }
+      
+        .links {
+          font-size: 16px;
+          gap: 5px;
+        }
+      
+        .getStarted {
+          width: 140px;
+          height: 45px;
+          font-size: 16px;
+        }
+      
+        .ebookdownload {
+          font-size: 14px;
+        }
+      
+        .bookicon {
+          width: 80px;
+          height: 80px;
+        }
+      }
+      

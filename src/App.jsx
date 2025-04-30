@@ -13,6 +13,7 @@ import WhyChooseUs from './WhyChoseUs'
 import PriceCard from './PriceCard'
 import AdvancedPlan from './AdvancedPlan'
 import ResumePlans from './ResumePlans'
+import Footer from './Footer'
 
 function App() {
 
@@ -100,10 +101,8 @@ function App() {
         </div>
       </section>
       <section className='clients' id='clients'>
-        <h2 className='clientstitle'>What out clients have to say</h2>
-
+        <h2 className='clientstitle'>What our clients have to say</h2>
         <div className='videocards' >
-
           <VideoCard />
           <VideoCard />
           <VideoCard />
@@ -184,8 +183,8 @@ function App() {
 
       </section>
 
-      <section>
-
+      <section className='footerpage' >
+        <Footer/>
       </section>
 
     </>

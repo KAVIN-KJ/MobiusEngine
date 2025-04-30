@@ -78,7 +78,7 @@
     color: white;
   }
   
-  .get-started-btn {
+  .advance-right .get-started-btn {
     background: white;
     color: #0649E7;
     padding: 14px 28px;
@@ -89,3 +89,10 @@
     cursor: pointer;
   }
   
+  @media (max-width: 1250px) {
+    .advance-card{
+      flex-direction: column;
+      width: 100%;
+      height: fit-content;
+    }
+  }
