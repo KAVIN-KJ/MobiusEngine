@@ -94,5 +94,74 @@
       flex-direction: column;
       width: 100%;
       height: fit-content;
+      margin: 0px;
+      padding: 10px;
     }
   }
+  @media (max-width: 400px) {
+    .advance-card {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      margin: auto;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+  
+    .advance-left {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .advance-left h2 {
+      font-size: 20px;
+    }
+  
+    .subtitle {
+      font-size: 14px;
+      margin-top: 8px;
+    }
+  
+    .advance-left .divider {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .features-grid {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+  
+    .features-grid li {
+      font-size: 12px;
+    }
+  
+    .features-grid img {
+      width: 16px;
+      height: 16px;
+      margin-right: 8px;
+    }
+  
+    .advance-right {
+      width: 100%;
+      align-items: center;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .advance-right .price {
+      font-size: 20px;
+    }
+  
+    .advance-right .price span {
+      font-size: 28px;
+    }
+  
+    .advance-right .get-started-btn {
+      font-size: 14px;
+      padding: 10px 20px;
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  
