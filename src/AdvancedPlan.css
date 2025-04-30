@@ -94,8 +94,14 @@
       flex-direction: column;
       width: 100%;
       height: fit-content;
+      scale: 0.9;
       margin: 0px;
-      padding: 10px;
+      gap: 20px;
+      padding: 50px;
+    }
+    .features-grid{
+      display: flex;
+      flex-direction: column;
     }
   }
   @media (max-width: 400px) {
@@ -103,7 +109,6 @@
       flex-direction: column;
       width: 100%;
       height: auto;
-      margin: auto;
       padding: 20px;
       box-sizing: border-box;
     }
@@ -123,8 +128,7 @@
     }
   
     .advance-left .divider {
-      width: 100%;
-      margin: 10px 0;
+      display: none;
     }
   
     .features-grid {

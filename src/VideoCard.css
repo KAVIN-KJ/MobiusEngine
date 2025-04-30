@@ -8,6 +8,10 @@
   border: 2px solid #0057ff;
   display: flex;
   flex-direction: column;
+  transition: 500ms ease;
+}
+.card:hover{
+  scale: 1.04;
 }
 
 .card-top {

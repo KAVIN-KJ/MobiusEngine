@@ -28,6 +28,11 @@
     border-radius: 31.5px;
     font-size: 25px;
     color: #022183;
+    transition: 500ms ease;
+}
+.getStarted:hover{
+    background-color: #022183;
+    color: white;
 }
 
 .homebody{
@@ -309,7 +314,6 @@
         }
         .homeBG{
             background-color: none;
-            background-color: #0649E7;
         }
         .bookicon{
             display: none;
@@ -317,15 +321,17 @@
         .navbar {
           flex-direction: column;
           height: auto;
+          gap: 10px;
           padding: 10px 0;
         }
-      
+        
         .links {
-          flex-wrap: wrap;
-          width: 100%;
-          font-size: 18px;
-          justify-content: center;
-          gap: 10px;
+            flex-wrap: wrap;
+            width: 100%;
+            color: black;
+            font-size: 18px;
+            justify-content: center;
+            gap: 10px;
         }
       
         .getStarted {
@@ -333,6 +339,7 @@
           height: 50px;
           font-size: 18px;
           margin-top: 10px;
+          scale: .8;
         }
       
         .homebody {
@@ -550,11 +557,7 @@
           .clients{
             height: fit-content;
           }
-
-          .clients{
-
-          }
-        
+      
           .videocards {
             position: static;
             flex-direction: column;
