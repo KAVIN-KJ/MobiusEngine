@@ -475,7 +475,11 @@
           .whychooseus{
             position: relative;
             top: px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
           }
+
           .whychooseus h2{
             text-align: center;
           }

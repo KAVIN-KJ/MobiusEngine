@@ -16,6 +16,7 @@
 .features {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     gap: 24px;
     flex-wrap: wrap;
 }
@@ -59,3 +60,13 @@
     line-height: 1.5;
     color: #022183;
 }
+@media (max-width: 450px) {
+    .why-choose-us .features{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+}
+
+
