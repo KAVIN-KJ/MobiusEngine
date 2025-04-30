@@ -11,6 +11,7 @@ import ashwin from './assets/Ashwin.png'
 import nicolle from './assets/Nicolle.png'
 import WhyChooseUs from './WhyChoseUs'
 import PriceCard from './PriceCard'
+import AdvancedPlan from './AdvancedPlan'
 
 function App() {
 
@@ -126,6 +127,7 @@ function App() {
           <h2 className='jobapplication-heading'>Job Application Service plans</h2>
 
           <PriceCard/>
+          <AdvancedPlan/>
 
       </section>
 
