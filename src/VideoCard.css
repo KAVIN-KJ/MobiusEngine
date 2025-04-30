@@ -1,0 +1,71 @@
+.card {
+  width: 396px;
+  height: 450px;
+  border-radius: 20px;
+  overflow: hidden;
+  font-family: 'Sora', sans-serif;
+  background-color: white;
+  border: 2px solid #0057ff;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-top {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom: none;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.play-button {
+  width: 48px;
+  height: 48px;
+  background-color: #0057ff;
+  color: white;
+  font-size: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-bottom {
+  background-color: #0057ff;
+  padding: 20px 24px 24px;
+  color: white;
+  position: relative;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.card-bottom p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.card-bottom strong {
+  font-weight: 700;
+}
+
+.arrow-button {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  color: #0057ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}

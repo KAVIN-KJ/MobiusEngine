@@ -1,0 +1,233 @@
+
+.homeBG{
+    height: 858px;
+    background-color: rgb(0, 153, 255);
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+.links{
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+
+.getStarted{
+    width: 220px;
+    height: 62px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 31.5px;
+    font-size: 25px;
+    color: #022183;
+}
+
+.homebody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.homecontent{
+    height: 445px;
+    width: 1304px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.descriptioncontainer{
+    width: 776px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 30px;
+}
+
+.homecontent .description{
+    font-size: 80px;
+    color: white;
+    letter-spacing: -5px;
+}
+.homecontent .description span{
+    color: blue;
+}
+.ebookcontainer{
+    height: 445px;
+    width: 348px;
+    justify-self: flex-end;
+}
+.bookicon{
+    border-radius: 100px;
+    border: 1px solid white;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    position: relative;
+    justify-self: flex-end;
+    bottom: 100px;
+}
+
+.ebookdownload{
+    position: relative;
+    font-size: 18px;
+    color: white;
+    left: 50px;
+    top: 20px;
+}
+
+.contentpara{
+    font-size: 20px;
+    color: white;
+}
+.howwework{
+    height: 540px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.howwework .titlecontainer{
+    width: 70%;
+}
+.howwework .title{
+    font-size: 40px;
+    font-weight: 400;
+    color: #0649E7;
+    text-align: left;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    width: 80%;
+}
+.about{
+    background: url("./assets/aboutGradient.png");
+    background-repeat: no-repeat;
+    height: 1130px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    gap: 100px;
+    border: 1px solid red;
+    align-items: center;
+}
+.aboutheading{
+    width: 70%;
+    margin-top: 120px;
+    height: fit-content;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+.peoplecontainer{
+    width: 906px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;  
+}
+.people{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+
+}
+.people p{
+    width: 537px;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
+.learnmore{
+    width: 100%;
+    text-align: center;
+}
+
+.clients{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.clientstitle{
+    width: 70%;
+    margin-top: 100px;
+    color: #0649E7;
+    font-size: 40px;
+    font-weight: 500;
+}
+.videocards{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    font-family: 'Sora', sans-serif;
+  }
+  
+  button {
+    height: 62px;
+    padding: 0 24px;
+    font-size: 16px;
+    border-radius: 31px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-outline {
+    background-color: white;
+    color: #0057ff;
+    border: 2px solid #0057ff;
+  }
+  
+  .btn-outline:hover {
+    background-color: #f0f8ff;
+  }
+  
+  .btn-solid {
+    background-color: #0057ff;
+    color: white;
+    border: none;
+  }
+  
+  .btn-solid:hover {
+    background-color: #0047d4;
+  }
+  
+  .arrow {
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  .whychooseus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
