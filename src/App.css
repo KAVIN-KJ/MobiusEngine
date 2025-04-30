@@ -230,4 +230,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
+
+  
+  .jobapplication{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .jobapplication-heading{
+        width: 70%;
+        font-size: 40px;
+        color: #0649E7;
+        font-weight: 600;
+    }

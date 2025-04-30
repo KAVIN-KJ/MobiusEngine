@@ -10,6 +10,7 @@ import book from './assets/bookIcon.png'
 import ashwin from './assets/Ashwin.png'
 import nicolle from './assets/Nicolle.png'
 import WhyChooseUs from './WhyChoseUs'
+import PriceCard from './PriceCard'
 
 function App() {
 
@@ -118,6 +119,14 @@ function App() {
 
       <section id="whychooseus" className='whychooseus' >
         <WhyChooseUs/>
+      </section>
+
+      <section className='jobapplication' >
+
+          <h2 className='jobapplication-heading'>Job Application Service plans</h2>
+
+          <PriceCard/>
+
       </section>
 
     </>
